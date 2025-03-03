@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    color: #29020a;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header */
+  p {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #d7a3c2;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 80%;
+    max-width: 280px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ff80ab;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    background: #fff0f6;
+    color: #5a3d5c;
+    transition: 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    border-color: #ff4081;
+    box-shadow: 0px 0px 10px rgba(255, 64, 129, 0.5);
+  }
+  
+  /* Add Book Button */
+  button {
+    background: #ff80ab;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 10px rgba(255, 128, 171, 0.4);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  button:hover {
+    background: #ff4081;
+    transform: scale(1.1);
+  }
+  
+  /* Book List */
+  h3 {
+    background: white;
+    padding: 15px;
+    margin: 12px auto;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h3 b {
+    flex: 1;
+    text-align: left;
+    padding: 5px;
+    font-size: 16px;
+    color: #a54268;
+  }
+  
+  h3 button {
+    background: #ff80ab;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 15px;
+  }
+  
+  h3 button:hover {
+    background: #ff4081;
+    transform: scale(1.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    input {
+      max-width: 100%;
+    }
+  
+    h3 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    h3 b {
+      text-align: center;
+    }
+  }
+  
